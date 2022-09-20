@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "TB_PRODUTOS")
@@ -19,11 +20,16 @@ public class Produtos{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column
+	@Column 
+	@NotNull
 	private String nome;
-	@Column
+	
+	@Column 
+	@NotNull
 	private BigDecimal quantidade;
-	@Column
+	
+	@Column 
+	@NotNull
 	private BigDecimal valor;
 	
 	
