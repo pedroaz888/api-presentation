@@ -3,4 +3,4 @@
 
 Apresentação de CRUD em swagger com heroku
 
-acesse: https://pedro-presentation-produtos.herokuapp.com/swagger-ui.html
+acesse: https://pedro-presents-products.herokuapp.com/swagger-ui.html
